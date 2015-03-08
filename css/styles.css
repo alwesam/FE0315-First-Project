@@ -1,0 +1,30 @@
+/**general**/
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+}
+
+a {
+	color: grey;
+}
+
+hr {
+	border: none;
+	height: 4px;
+	background-color: #BCBBBB;
+}
+
+/**custom classes**/
+.logo-place {
+	margin-top: 20px;
+}
+
+.name-font {
+	font-family: 'Play', sans-serif; 
+	/*font-weight: 200;*/
+	font-size: 50px;
+}
+
+.fw-font {
+	color: #BCBBBB;
+}
