@@ -8,6 +8,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<!--Add JS and Jquery files-->
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -49,7 +52,9 @@
 				<div class="col-md-4">
 					<img class="img-responsive" 
 						 src="images/shareloc-icon.png" 
-						 alt="shareloc">
+						 alt="shareloc"
+						 data-toggle="modal" 
+						 data-target="#shareloc">
 					<h3 class="text-uppercase">ShareLoc</h3>
 					<p>
 						<a href="https://github.com/alwesam/shareloc">
@@ -83,5 +88,29 @@
 				</div>
 			</div>
 		</div>
+		<!-- ShareLoc Android Modal -->
+		<div class="modal  fade" id="shareloc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title text-center" id="myModalLabel">ShareLoc Android App</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class ="row">
+		      		<div class="col-md-6">
+		        		<img class="img-responsive" src="images/shareloc-icon.png" alt="shareloc icon">
+		        	</div>
+		        	<div class="col-md-6">
+		        		<p>This was my first Android project. I learned a lot about Java and OOP.</p>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--end modal-->
 	</body>
 </html>
