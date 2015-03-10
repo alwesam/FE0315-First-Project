@@ -21,7 +21,7 @@ hr {
 }
 
 .name-font {
-	font-family: 'Play', sans-serif;
+	font-weight: 200;
 	font-size: 50px;
 }
 
@@ -30,11 +30,13 @@ hr {
 }
 
 .tab-padding {
-	padding-right: 5em
+	padding-right: 4em
 }
 
 .proverb-style {
-	margin-bottom: 50px;
+	font-family: Open+Sans;
+	margin-top: 100px;
+	margin-bottom: 150px;
 	color: black;
 }
 
