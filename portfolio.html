@@ -8,6 +8,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<!--Add JS and Jquery files-->
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -48,7 +51,9 @@
 				<div class="col-md-4">
 					<img class="img-responsive" 
 						 src="images/shareloc-icon.png" 
-						 alt="shareloc">
+						 alt="shareloc"
+						 data-toggle="modal" 
+						 data-target="#shareloc">
 					<h3 class="text-uppercase">ShareLoc</h3>
 					<p>
 						<a href="https://github.com/alwesam/shareloc">
@@ -60,7 +65,9 @@
 				<div class="col-md-4">
 					<img class="img-responsive" 
 						 src="images/sunshine-icon.png" 
-						 alt="sunshine">
+						 alt="sunshine"
+						 data-toggle="modal" 
+						 data-target="#sunshine">
 					<h3 class="text-uppercase">Sunshine</h3>
 					<p>
 						<a href="https://github.com/alwesam/sunshine">
@@ -72,7 +79,9 @@
 				<div class="col-md-4">
 					<img class="img-responsive" 
 						 src="images/Frogger.png" 
-						 alt="mockup">
+						 alt="frogger"
+						 data-toggle="modal" 
+						 data-target="#frogger">
 					<h3 class="text-uppercase">Frogger</h3>
 					<p>
 						<a href="https://github.com/alwesam/FE0315-Third-Project">
@@ -109,5 +118,77 @@
 				</div>
 			</div>
 		</div>
+		<!-- ShareLoc Android Modal -->
+		<div class="modal  fade" id="shareloc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title text-center" id="myModalLabel">ShareLoc Android App</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class ="row">
+		      		<div class="col-md-6">
+		        		<img class="img-responsive" src="images/shareloc-icon.png" alt="shareloc icon">
+		        	</div>
+		        	<div class="col-md-6 modal-body-font">
+		        		<p>This is my first Android project. I have learned a lot about Java and OOP as well as app development.  The project has been growing and features are being added.  In addition, the code is being continously reviewed to remove redundancies, improve its efficiency, and make the app as lightweight as possible without compromising its functional integrity .  If you have any comments or feedback, please contact me at alwesam@vandevsam.com.</p>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--end modal-->
+		<!-- ShareLoc Android Modal -->
+		<div class="modal  fade" id="sunshine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title text-center" id="myModalLabel">Sunshine Android App</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class ="row">
+		      		<div class="col-md-6">
+		        		<img class="img-responsive" src="images/sunshine-icon.png" alt="sunshine icon">
+		        	</div>
+		        	<div class="col-md-6 modal-body-font">
+		        		<p>This is an app I have been building as part of my Udacity course training on Android Studio.</p>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--end modal-->
+		<!-- Frogger Android Modal -->
+		<div class="modal  fade" id="frogger" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title text-center" id="myModalLabel">Frogger Clone</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class ="row">
+		      		<div class="col-md-6">
+		        		<img class="img-responsive" src="images/Frogger.png" alt="frogger icon">
+		        	</div>
+		        	<div class="col-md-6 modal-body-font">
+		        		<p>TBA</p>
+		        	</div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--end modal-->
 	</body>
 </html>
