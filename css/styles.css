@@ -2,6 +2,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #747704;
+	background-color: #F2F2F2;
 }
 
 a {
@@ -20,11 +21,19 @@ hr {
 }
 
 .name-font {
-	font-family: 'Play', sans-serif; 
-	/*font-weight: 200;*/
+	font-family: 'Play', sans-serif;
 	font-size: 50px;
 }
 
 .fw-font {
 	color: #BCBBBB;
+}
+
+.tab-padding {
+	padding-right: 5em
+}
+
+.proverb-style {
+	margin-bottom: 50px;
+	color: black;
 }
