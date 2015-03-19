@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: grey;
+	color: gray;
 }
 
 hr {
@@ -34,7 +34,7 @@ hr {
 }
 
 .quote {
-	font-family: Open+Sans;
+	font-family: 'Open Sans';
 	margin-top: 100px;
 	margin-bottom: 150px;
 	color: black;
