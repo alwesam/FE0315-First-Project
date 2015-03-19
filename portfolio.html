@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,6 +12,8 @@
 		<!--Add JS and Jquery files-->
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<!--for changing quote-->
+		<script type="text/javascript" src="js/quote.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -35,9 +37,10 @@
 			</div>	
 			<!--third row image-->
 			<div class="row">
-				<div class="col-md-12 text-center proverb-style">
-					<h1 class="text-uppercase">"There is no substitute for hard work."</h1>
-					<h3>Thomas A. Edison</h3>			
+				<div class="col-md-12 text-center quote">
+					<!--insert jquery methods to change quotes periodically-->
+					<h1></h1>
+					<h3></h3>			
 				</div>
 			</div>
 			<!--fourth row: featured work-->
@@ -65,31 +68,31 @@
 				<!--second column-->
 				<div class="col-md-4">
 					<img class="img-responsive" 
-						 src="images/sunshine-icon.png" 
-						 alt="sunshine"
+						 src="images/Frogger.png" 
+						 alt="frogger"
 						 data-toggle="modal" 
-						 data-target="#sunshine">
-					<h3 class="text-uppercase">Sunshine</h3>
+						 data-target="#frogger">
+					<h3 class="text-uppercase">Frogger Clone</h3>
 					<p>
-						<a href="https://github.com/alwesam/sunshine">
-							https://github.com/alwesam/sunshine
+						<a href="#">
+							Coming Soon...
 						</a>
 					</p>
 				</div>
 				<!--third column-->
 				<div class="col-md-4">
 					<img class="img-responsive" 
-						 src="images/Frogger.png" 
-						 alt="frogger"
+						 src="images/shareloc-icon.png" 
+						 alt="neighborhood-map"
 						 data-toggle="modal" 
-						 data-target="#frogger">
-					<h3 class="text-uppercase">Frogger</h3>
+						 data-target="#nmap">
+					<h3 class="text-uppercase">Neighborhood Map</h3>
 					<p>
-						<a href="https://github.com/alwesam/FE0315-Third-Project">
-							https://github.com/alwesam/FE0315-Third-Project
+						<a href="#">
+							Coming Soon...
 						</a>
 					</p>
-				</div>
+				</div>				
 			</div>
 			<!--Sixth row-->
 			<div class="row">
@@ -102,10 +105,7 @@
 				<div class="col-md-12">
 					<p><a href="http://vandevsam.com" class="tab-padding">
 							Home
-						</a> 
-						<a href="About" class="tab-padding">
-							About
-						</a> 
+						</a>
 						<a href="http://vandevsam.com/blog" class="tab-padding">
 							Blog
 						</a> 
@@ -146,20 +146,20 @@
 		  </div>
 		</div>
 		<!--end modal-->
-		<!-- ShareLoc Android Modal -->
-		<div class="modal  fade" id="sunshine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<!-- Neighbhorhood map Modal -->
+		<div class="modal  fade" id="nmap" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h4 class="modal-title text-center" id="myModalLabel">Sunshine Android App</h4>
+		        <h4 class="modal-title text-center" id="myModalLabel">Neighborhood Map</h4>
 		      </div>
 		      <div class="modal-body">
 		      	<div class ="row">
 		      		<div class="col-md-6">
-		        		<img class="img-responsive" src="images/sunshine-icon.png" alt="sunshine icon">
+		        		<img class="img-responsive" src="images/shareloc-icon.png" alt="neighborhood map">
 		        	</div>
 		        	<div class="col-md-6 modal-body-font">
-		        		<p>This is an app I have been building as part of my Udacity course training on Android Studio.  Image courtesy of Udacity.</p>
+		        		<p></p>
 		        	</div>
 		        </div>
 		      </div>
@@ -183,7 +183,7 @@
 		        		<img class="img-responsive" src="images/Frogger.png" alt="frogger icon">
 		        	</div>
 		        	<div class="col-md-6 modal-body-font">
-		        		<p>TBA. Image courtesy of http://ccl.northwestern.edu</p>
+		        		<p>Image courtesy of http://ccl.northwestern.edu</p>
 		        	</div>
 		        </div>		      
 		      </div>
