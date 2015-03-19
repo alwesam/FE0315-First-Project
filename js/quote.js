@@ -13,7 +13,7 @@ function quotes(key) {
 				'Thomas Edison' : '"There is no substitute for hard work."',
 				'Freidrich Nietzsche' :'"He who has a why to live can bear almost any how."',
 				'Theodore Roosevelt' : '“The only man who never makes a mistake is the man who never does anything.”',
-				'Abraham Lincoln' : '"You can\'t believe everything your read on the internet."',
+				'Abraham Lincoln' : '"You can\'t believe everything you read on the internet."',
 				'Jim Rohn' : '"Your life does not get better by chance, it gets better by change."'
 				};
 	return quote[key];
