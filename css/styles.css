@@ -15,6 +15,10 @@ hr {
 	background-color: #BCBBBB;
 }
 
+.game-link {
+	color: blue;
+}
+
 /**custom classes**/
 .logo-place {
 	margin-top: 20px;
